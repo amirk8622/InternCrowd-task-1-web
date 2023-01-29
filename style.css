@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;0,700;1,400;1,500&family=Poppins:ital,wght@0,300;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: darkgrey;
+}
+.navbar {
+    text-align: center;
+    display: inline-block;
+   padding-left: 50px;
+   word-spacing: 50px;
+   padding-right: 80px;
+   overflow: hidden;
+  
+  
+}
+.navbar a{
+    float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+.navbar a:hover{
+    background-color:  blue;
+    font
+}
+.search input[type=text]{
+
+    width:200px;
+        height:30px;
+        border-radius:25px;
+        border: none;
+
+}
+ .search{
+    float: right;
+    padding-right: 100px;
+    margin: 7px;
+ }
+ 
+ .search button{
+     border-radius: 25px;
+ }
+
+ .header{
+    background-color: bisque;
+
+ }
+
+ .btn{
+    border-radius: 50px;
+    background-color: pink;
+    height: 50px;    
+ } 
+ img {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+    padding-right: 50px;
+ }
+ .head{
+    display: block;
+    text-align: center;
+ }
+
+ .subjects .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .subjects .box-container .box {
+    padding: 3rem 2rem;
+    text-align: center;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    cursor: pointer;
+  }
+  
+  .subjects .box-container .box:hover {
+    background: #0eb582;
+  }
+  
+  .subjects .box-container .box:hover h3 {
+    color: #fff;
+  }
+  
+  .subjects .box-container .box:hover p {
+    color: #eee;
+  }
+  
+  .subjects .box-container .box img {
+    height: 10rem;
+    margin-bottom: .7rem;
+  }
+  
+  .subjects .box-container .box h3 {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    color: #444;
+    padding: .5rem 0;
+  }
+  
+  .subjects .box-container .box p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #777;
+  }
+  
